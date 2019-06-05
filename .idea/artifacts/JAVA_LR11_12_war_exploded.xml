@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JAVA_LR11-12:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JAVA_LR11_12_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JAVA_LR11-12/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JAVA_LR11-12" />
+          <element id="dir-copy" path="$PROJECT_DIR$/resources" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="javax.servlet:javax.servlet-api:4.0.1" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.16" />
+          <element id="library" level="project" name="taglibs-standard-impl-1.2.5" />
+          <element id="library" level="project" name="taglibs-standard-spec-1.2.5" />
+        </element>
+        <element id="dir-copy" path="$PROJECT_DIR$/resources" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/resources" />
+    </root>
+  </artifact>
+</component>
