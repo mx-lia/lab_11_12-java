@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <title>Login</title>
@@ -14,7 +15,7 @@
 <body>
     <div class="w3-container">
         <div class="w3-display-topmiddle">
-            <jsp:include page="header.html"/>
+            <c:import url="/views/header.html"/>
         </div>
         <div class="w3-card-4 w3-display-middle w3-hide-small" style="width:30%">
             <div class="w3-container w3-green w3-center">
@@ -54,7 +55,7 @@
             </form>
         </div>
         <div class="w3-display-bottommiddle">
-            <jsp:include page="footer.html"/>
+            <c:import url="/views/footer.html"/>
         </div>
     </div>
 </body>
